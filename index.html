@@ -459,6 +459,145 @@
         .footer-section p {
             letter-spacing: 0.5px;
         }
+        /* =========================
+        RESPONSIVE MOBILE
+        ========================= */
+
+        @media (max-width: 768px) {
+
+            /* HERO */
+            #hero {
+                height: auto;
+                padding: 120px 0 80px;
+                text-align: center;
+            }
+
+            #hero h1 {
+                font-size: 2.2rem;
+                line-height: 1.4;
+            }
+
+            #hero .lead {
+                font-size: 1rem;
+                line-height: 1.8;
+            }
+
+            #hero img {
+                width: 180px;
+                margin-top: 30px;
+            }
+
+            #hero .btn {
+                width: 100%;
+                margin-bottom: 12px;
+            }
+
+            /* NAVBAR */
+            .navbar-nav {
+                background: rgba(0,0,0,0.9);
+                padding: 15px;
+                border-radius: 12px;
+                margin-top: 10px;
+            }
+
+            .nav-link {
+                text-align: center;
+                padding: 12px;
+            }
+
+            /* SECTION */
+            section {
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+
+            /* TITLE */
+            .section-title {
+                font-size: 2rem;
+            }
+
+            /* SKILL CARD */
+            .skill-card {
+                padding: 30px 20px;
+            }
+
+            .skill-card h4 {
+                font-size: 1.3rem;
+            }
+
+            .skill-card p {
+                font-size: 0.95rem;
+            }
+
+            .icon-box {
+                width: 70px;
+                height: 70px;
+                font-size: 28px;
+            }
+
+            /* PROJECT */
+            .project-card .card-title {
+                font-size: 1.2rem;
+            }
+
+            .project-card .card-text {
+                font-size: 0.95rem;
+                line-height: 1.7;
+            }
+
+            .project-img-wrapper img {
+                height: 200px;
+            }
+
+            .btn-project {
+                width: 100%;
+                text-align: center;
+            }
+
+            /* CONTACT */
+            .social-icons {
+                gap: 18px !important;
+            }
+
+            .social-icon {
+                width: 65px;
+                height: 65px;
+                font-size: 28px;
+            }
+
+            .contact-text {
+                font-size: 0.95rem;
+                line-height: 1.7;
+                padding: 0 10px;
+            }
+
+            /* FOOTER */
+            .footer-section p {
+                font-size: 0.9rem;
+            }
+        }
+
+        /* EXTRA SMALL DEVICE */
+        @media (max-width: 480px) {
+
+            #hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .section-title {
+                font-size: 1.7rem;
+            }
+
+            .project-img-wrapper img {
+                height: 180px;
+            }
+
+            .social-icon {
+                width: 58px;
+                height: 58px;
+                font-size: 24px;
+            }
+        }
     </style>
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
